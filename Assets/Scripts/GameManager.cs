@@ -110,7 +110,7 @@ public class GameManager : MonoBehaviour
 
             Load("BodyPart");
             Load("EnemySkeleton");
-
+            Load("Demon");
         }
 
         Debug.Log("Loading completed! " + objectPool.Count + " game objects loaded.");

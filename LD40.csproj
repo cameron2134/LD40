@@ -80,6 +80,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BodyPart.cs" />
     <Compile Include="Assets\Scripts\Creature.cs" />
+    <Compile Include="Assets\Scripts\Demon.cs" />
+    <Compile Include="Assets\Scripts\DemonController.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />

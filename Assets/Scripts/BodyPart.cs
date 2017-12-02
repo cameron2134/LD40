@@ -12,6 +12,18 @@ public class BodyPart : MonoBehaviour
 	void Start ()
 	{
 	    partType = GameManager.Instance.GetBodyPart();
+        
 	}
-	
+
+    void OnEnable()
+    {
+        StartCoroutine(Expire());
+    }
+
+
+    IEnumerator Expire()
+    {
+        yield return new WaitForSeconds(10);
+        GameManager.Instance.DestroyObj(gameObject);
+    }
 }
